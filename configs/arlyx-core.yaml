@@ -1,0 +1,13 @@
+core:
+  host: 0.0.0.0
+  port: 8000
+
+rag:
+  enabled: false
+  backend: "qdrant"
+  qdrant_url: "http://qdrant:6333"
+  collection: "arlyx-docs"
+
+orchestrator:
+  enabled: false
+  max_steps: 8
